@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', 'Outfit', sans-serif;
+    @apply bg-[#030712] text-gray-100;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)];
+  }
+  
+  .glass-input {
+    @apply bg-white/5 border border-white/10 focus:border-blue-500/50 focus:ring-4 focus:ring-blue-500/10 transition-all duration-300;
+  }
+
+  .premium-gradient-text {
+    @apply bg-gradient-to-r from-blue-400 via-indigo-400 to-purple-500 bg-clip-text text-transparent;
+  }
+
+  .premium-button {
+    @apply relative overflow-hidden transition-all duration-300 active:scale-95 hover:shadow-[0_0_20px_rgba(79,70,229,0.4)];
+  }
+}
+
+@keyframes slow-pan {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-slow-pan {
+  animation: slow-pan 20s ease infinite;
+  background-size: 200% 200%;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-full hover:bg-white/20 transition-colors;
+}
