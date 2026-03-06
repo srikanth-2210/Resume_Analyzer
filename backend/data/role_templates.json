@@ -1,0 +1,117 @@
+{
+    "Data Scientist": {
+        "jd": "Strong background in statistics, machine learning, and data visualization. Experience with Python, R, SQL, and deep learning frameworks like TensorFlow or PyTorch. Ability to derive insights from complex datasets and build predictive models.",
+        "required_skills": [
+            "Python",
+            "Machine Learning",
+            "Statistics",
+            "SQL",
+            "Pandas",
+            "Scikit-Learn"
+        ],
+        "optional_skills": [
+            "PyTorch",
+            "TensorFlow",
+            "NLP",
+            "Tableau",
+            "Cloud Computing"
+        ],
+        "weights": {
+            "skills": 0.4,
+            "experience": 0.4,
+            "tools": 0.2
+        }
+    },
+    "ML Engineer": {
+        "jd": "Expertise in designing and deploying machine learning models at scale. Proficiency in Python, MLOps, and deep learning. Experience with Docker, Kubernetes, and cloud services (AWS/GCP/Azure). Knowledge of distributed computing like Spark.",
+        "required_skills": [
+            "Python",
+            "Deep Learning",
+            "MLOps",
+            "Docker",
+            "Kubernetes",
+            "PyTorch"
+        ],
+        "optional_skills": [
+            "TensorFlow",
+            "Spark",
+            "AWS",
+            "CI/CD",
+            "FastAPI"
+        ],
+        "weights": {
+            "skills": 0.35,
+            "experience": 0.35,
+            "tools": 0.3
+        }
+    },
+    "Backend Engineer": {
+        "jd": "Expertise in building scalable backend systems. Strong proficiency in Python, Java, or Node.js. Experience with REST APIs, database management (SQL/NoSQL), microservices architecture, and cloud deployment. Strong problem-solving skills.",
+        "required_skills": [
+            "Python",
+            "FastAPI",
+            "PostgreSQL",
+            "REST APIs",
+            "Redis",
+            "Docker"
+        ],
+        "optional_skills": [
+            "Kubernetes",
+            "AWS",
+            "Kafka",
+            "Unit Testing",
+            "Microservices"
+        ],
+        "weights": {
+            "skills": 0.4,
+            "experience": 0.3,
+            "tools": 0.3
+        }
+    },
+    "AI Researcher": {
+        "jd": "PhD or Master's in CS/AI. Deep understanding of AI theoretical foundations. Published research in top-tier conferences (NeurIPS, ICML, CVPR). Expertise in advanced deep learning architectures and large language models.",
+        "required_skills": [
+            "Deep Learning",
+            "Theoretical CS",
+            "NLP",
+            "Computer Vision",
+            "PyTorch",
+            "LaTeX"
+        ],
+        "optional_skills": [
+            "Research Publications",
+            "LLMs",
+            "C++",
+            "JAX",
+            "Distributed Training"
+        ],
+        "weights": {
+            "skills": 0.3,
+            "experience": 0.5,
+            "tools": 0.2
+        }
+    },
+    "Data Analyst": {
+        "jd": "Proficiency in data cleaning, exploratory data analysis, and reporting. Skill in SQL, Excel, and data visualization tools like PowerBI or Tableau. Ability to communicate data findings to stakeholders effectively.",
+        "required_skills": [
+            "SQL",
+            "Excel",
+            "Tableau",
+            "PowerBI",
+            "Python",
+            "Data Cleaning"
+        ],
+        "optional_skills": [
+            "R",
+            "Statistics",
+            "Snowflake",
+            "ETL",
+            "Dashboarding"
+        ],
+        "weights": {
+            "skills": 0.45,
+            "experience": 0.35,
+            "tools": 0.2
+        }
+    }
+}

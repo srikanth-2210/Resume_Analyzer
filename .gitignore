@@ -5,6 +5,9 @@ __pycache__/
 *.so
 .Python
 env/
+venv/
+venv2/
+.venv/
 build/
 develop-eggs/
 dist/
@@ -21,8 +24,14 @@ wheels/
 .installed.cfg
 *.egg
 .env
-venv/
 .env.*
+
+# Temporary files
+tmp_*.json
+tmp_*.log
+final_*.json
+test_*.py
+verify_*.py
 
 # Node / React
 frontend/node_modules/
