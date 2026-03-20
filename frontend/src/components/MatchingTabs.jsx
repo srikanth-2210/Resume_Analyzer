@@ -5,6 +5,7 @@ const MatchingTabs = ({ activeTab, onTabChange }) => {
     const tabs = [
         { id: "insights", label: "Structured Insights", icon: Sparkles },
         { id: "deep-scan", label: "Deep Scan", icon: Search },
+        { id: "skill-compare", label: "Skill Compare", icon: Target },
         { id: "interview", label: "Interview AI", icon: Brain },
         { id: "optimization", label: "Optimization", icon: Zap },
         { id: "career-fit", label: "Career Fit", icon: Target },
